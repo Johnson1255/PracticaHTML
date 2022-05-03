@@ -60,6 +60,73 @@ ul {
     padding: 2px;
 }
 
+.showcase {
+    width: 100%;
+    height: 550px;
+    background: url("img/Votando.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.boton {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: black;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.boton:hover {
+    opacity: .7;
+}
+
+.showcase h2,
+.showcase p {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.noticias img {
+    width: 100%;
+    height: 300px;
+}
+
+.noticias h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.noticias a {
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.noticias a:hover {
+    text-decoration: underline;
+}
+
 /* CSS PARA CALENDARIO */
 
 .root {
