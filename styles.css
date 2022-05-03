@@ -36,7 +36,7 @@ ul {
 }
 
 .nav-brand {
-    width: 150px;
+    width: 105px;
 }
 
 .nav-main ul {
@@ -140,4 +140,9 @@ ul {
     border-radius: 50%;
     border: 2px solid white;
     box-shadow: 0 0 0 2px black inset;
+}
+
+.grid_cell_desabilitado {
+    color: gray;
+    cursor: not-allowed;
 }
