@@ -170,6 +170,47 @@ hr {
     margin: auto;
 }
 
+.contenedor_marcas {
+    width: 90%;
+    margin: auto;
+}
+
+.marcas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.marcas img {
+    width: 100%;
+    height: 300px;
+}
+
+.social {
+    margin: 50px;
+}
+
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+}
+
+.links a i {
+    font-size: 3rem;
+}
+
 /* CSS PARA CALENDARIO */
 
 .root {
