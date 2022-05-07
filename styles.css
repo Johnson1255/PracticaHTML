@@ -351,3 +351,93 @@ hr {
 .gallery-item:nth-of-type(8) {
     grid-column: 2 / span 2;
 }
+
+/* CSS PAGINAS EXTRA */
+
+.showcase_partidos {
+    width: 100%;
+    height: 550px;
+    background: url("img/Liberal.png") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.contenedor_partidos {
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor_partidos h2 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.contenedor_partidos p {
+    color: black;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.candidatos {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: black;
+    color: #fff;
+    font-size: 30px;
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.candidatos:hover {
+    opacity: .7;
+    text-decoration: underline;
+}
+
+.candidatos {
+    display: inline-block;
+}
+   
+
+.propuestas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.propuestas img {
+    width: 100%;
+    height: 300px;
+}
+
+.propuestas h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.propuestas a {
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.propuestas a:hover {
+    text-decoration: underline;
+}
+
+.propuestas {
+  width: 90%;
+  margin: auto;
+}
