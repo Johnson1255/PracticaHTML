@@ -354,7 +354,7 @@ hr {
 
 /* CSS PAGINAS EXTRA */
 
-.showcase_partidos {
+.showcase_liberal {
     width: 100%;
     height: 550px;
     background: url("img/Liberal.png") no-repeat center center/cover;
@@ -399,14 +399,15 @@ hr {
 }
 
 .candidatos:hover {
-    opacity: .7;
     text-decoration: underline;
 }
 
 .candidatos {
-    display: inline-block;
+    display: flex;
+    margin: 80px;
+    padding: 30px;
+    text-align: center;
 }
-   
 
 .propuestas {
     display: grid;
@@ -440,4 +441,124 @@ hr {
 .propuestas {
   width: 90%;
   margin: auto;
+}
+
+.showcase_radical {
+    width: 100%;
+    height: 550px;
+    background: url("img/Cambio.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.showcase_conservador {
+    width: 100%;
+    height: 550px;
+    background: url("img/Conservador.png") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.showcase_democratico {
+    width: 100%;
+    height: 550px;
+    background: url("img/Centro.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.showcase_democratico {
+    width: 100%;
+    height: 550px;
+    background: url("img/Centro.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.showcase_U {
+    width: 100%;
+    height: 550px;
+    background: url("img/U_fondo.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.showcase_polo {
+    width: 100%;
+    height: 550px;
+    background: url("img/Polo.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.showcase_verde {
+    width: 100%;
+    height: 550px;
+    background: url("img/Verde.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.showcase_asi {
+    width: 100%;
+    height: 550px;
+    background: url("img/asi.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.showcase_mira {
+    width: 100%;
+    height: 550px;
+    background: url("img/Mira.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.showcase_opcion {
+    width: 100%;
+    height: 550px;
+    background: url("img/Opcion_Ciudadana.jpg") no-repeat center center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
 }
